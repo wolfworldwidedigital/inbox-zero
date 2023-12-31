@@ -58,7 +58,7 @@ export function PlanHistory() {
             <TableHead>Subject</TableHead>
             <TableHead>Rule</TableHead>
             <TableHead>Actions</TableHead>
-            <TableHead>Values</TableHead>
+            <TableHead>Data</TableHead>
             <TableHead>Execution</TableHead>
             <TableHead>Date</TableHead>
           </TableRow>
@@ -131,12 +131,12 @@ export function PlanHistory() {
                 <TableCell className="space-x-2">
                   {h.actions.map((action) => capitalCase(action)).join(", ")}
                 </TableCell>
-                <TableCell className="space-x-4">
+                <TableCell className="max-w-[350px] space-x-4">
                   {Object.entries(h.data as any).map(
                     ([key, value]: [string, any]) => {
                       return (
                         <span key={key}>
-                          {capitalCase(key)}: {value}
+                          <strong>{capitalCase(key)}:</strong> {value}
                         </span>
                       );
                     },

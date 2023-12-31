@@ -81,7 +81,7 @@ export default function PlannedPage() {
       </>
 
       <div className="mb-8">
-        <div className="mx-2 my-2 sm:mx-6">
+        <div className="mx-2 my-2">
           <Tabs
             selected={selectedTab}
             tabs={[
