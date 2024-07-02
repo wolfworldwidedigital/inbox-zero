@@ -28,14 +28,14 @@ const sendEmail = async ({
   }
 
   const result = await resend.emails.send({
-    from: "Inbox Zero <elie@getinboxzero.com>",
+    from: "Cusmato <admin@cusmato.app>",
     to: test ? "delivered@resend.dev" : to,
     subject,
     react,
     headers: {
       ...(listUnsubscribe
         ? {
-            "List-Unsubscribe": "<https://www.getinboxzero.com/settings>",
+            "List-Unsubscribe": "<https://www.getcusmato.app/settings>",
             // TODO From Feb 2024 Google requires this for bulk senders
             // "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
           }

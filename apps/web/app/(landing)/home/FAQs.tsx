@@ -2,7 +2,7 @@ const faqs = [
   {
     question: "Do you store my emails?",
     answer:
-      "We store a hashed version of your emails for our analytics feature. As our code is open-source you can check our code to see this for yourself. For full data privacy you can self-host your own instance of Inbox Zero.",
+      "We store a hashed version of your emails for our analytics feature. As our code is open-source you can check our code to see this for yourself. For full data privacy you can self-host your own instance of Cusmato.",
   },
   {
     question: "Is the code open-source?",
@@ -36,7 +36,7 @@ const faqs = [
         </a>{" "}
         or{" "}
         <a
-          href="mailto:elie@getinboxzero.com"
+          href="mailto:admin@cusmato.app"
           target="_blank"
           className="font-semibold hover:underline"
           rel="noreferrer"
@@ -48,12 +48,12 @@ const faqs = [
     ),
   },
   {
-    question: "Can I still use Inbox Zero alongside my current email client?",
+    question: "Can I still use Cusmato alongside my current email client?",
     answer:
-      "Yes! Inbox Zero is intended to be used alongside your existing email client.",
+      "Yes! Cusmato is intended to be used alongside your existing email client.",
   },
   {
-    question: "Which email providers does Inbox Zero support?",
+    question: "Which email providers does Cusmato support?",
     answer:
       "We only support Gmail and Google Workspace email accounts today. We may add support for other email providers such as Outlook in the future.",
   },
@@ -63,7 +63,7 @@ const faqs = [
       <>
         If you don{"'"}t think we provided you with value send us an{" "}
         <a
-          href="mailto:elie@getinboxzero.com"
+          href="mailto:admin@cusmato.app"
           target="_blank"
           className="font-semibold hover:underline"
           rel="noreferrer"

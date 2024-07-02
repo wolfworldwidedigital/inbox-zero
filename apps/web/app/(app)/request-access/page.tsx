@@ -23,7 +23,7 @@ export default function RequestAccessPage() {
         <PageHeading>Email Client</PageHeading>
         <div className="mt-2 max-w-prose">
           <SectionDescription>
-            Use the Inbox Zero email client to manage your email.
+            Use the Cusmato email client to manage your email.
           </SectionDescription>
         </div>
         <div className="mt-4">
@@ -34,11 +34,11 @@ export default function RequestAccessPage() {
       </Card>
 
       <Card className="mx-auto mt-8 w-full max-w-2xl">
-        <PageHeading>Inbox Zero Daily Challenge</PageHeading>
+        <PageHeading>Cusmato Daily Challenge</PageHeading>
         <div className="mt-2 max-w-prose">
           <SectionDescription>
-            Getting to inbox zero is overwhelming. But doing it for a single day
-            is doable.
+            Getting to Cusmato is overwhelming. But doing it for a single day is
+            doable.
           </SectionDescription>
           <SectionDescription>
             Daily challenge mode aims to make handling email simpler:

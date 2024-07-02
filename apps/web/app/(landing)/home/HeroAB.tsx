@@ -27,7 +27,7 @@ const copy: {
   control: {
     title: "Clean Up Your Inbox In Minutes",
     subtitle:
-      "Newsletter cleaner, AI automation, cold email blocker, and analytics. Inbox Zero is the open-source email app that puts you back in control of your inbox.",
+      "Newsletter cleaner, AI automation, cold email blocker, and analytics. Cusmato is the open-source email app that puts you back in control of your inbox.",
   },
 };
 

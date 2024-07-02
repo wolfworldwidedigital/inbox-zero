@@ -23,7 +23,7 @@ export function SimpleModeOnboarding() {
       description={
         <>
           Simple email mode shows your emails for the past 24 hours, and helps
-          you reach inbox zero for the day quickly.
+          you reach Cusmato for the day quickly.
         </>
       }
       videoId="YjcGsWWfFYI"

@@ -29,7 +29,7 @@ export interface StatsUpdateEmailProps {
 
 export default function StatsUpdateEmail(props: StatsUpdateEmailProps) {
   const {
-    baseUrl = "https://www.getinboxzero.com",
+    baseUrl = "https://www.getcusmato.app",
     // userEmail = "hello@example.com",
     received = 112,
     receivedPercentageDifference = 12,
@@ -55,17 +55,17 @@ export default function StatsUpdateEmail(props: StatsUpdateEmailProps) {
   return (
     <Html>
       <Head />
-      <Preview>Your weekly email stats from Inbox Zero.</Preview>
+      <Preview>Your weekly email stats from Cusmato.</Preview>
       <Tailwind>
         <Body className="bg-white my-auto mx-auto font-sans">
           <Container className="border border-solid border-[#eaeaea] rounded my-[40px] mx-auto p-[20px] w-[465px]">
             <Section className="mt-8">
               <Link href={baseUrl} className="text-[15px]">
                 <Img
-                  src={`https://www.getinboxzero.com/icon.png`}
+                  src={`https://www.getcusmato.app/icon.png`}
                   width="40"
                   height="40"
-                  alt="Inbox Zero"
+                  alt="Cusmato"
                   className="mx-auto my-0"
                 />
               </Link>
@@ -73,7 +73,7 @@ export default function StatsUpdateEmail(props: StatsUpdateEmailProps) {
 
             <Section>
               <Heading className="text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0 text-center">
-                Your weekly email stats from Inbox Zero
+                Your weekly email stats from Cusmato
               </Heading>
 
               <Text style={paragraph}>Here are your weekly email stats:</Text>

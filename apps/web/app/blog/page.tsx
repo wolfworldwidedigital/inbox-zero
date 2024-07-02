@@ -21,10 +21,10 @@ const posts = [
     },
   },
   {
-    title: "Achieve Mental Clarity with Inbox Zero",
+    title: "Achieve Mental Clarity with Cusmato",
     file: "inbox-zero-benefits-for-mental-health",
     description:
-      "Learn how to achieve and maintain Inbox Zero for better mental health. Reduce stress, boost productivity, and gain mental clarity with these strategies.",
+      "Learn how to achieve and maintain Cusmato for better mental health. Reduce stress, boost productivity, and gain mental clarity with these strategies.",
     date: "Jun 27, 2024",
     datetime: "2024-06-27",
     // category: { title: "Marketing", href: "#" },
@@ -36,10 +36,10 @@ const posts = [
     },
   },
   {
-    title: "Mastering Inbox Zero - A Productivity Guide for Entrepreneurs",
+    title: "Mastering Cusmato - A Productivity Guide for Entrepreneurs",
     file: "inbox-zero-workflow-for-entrepreneurs",
     description:
-      "Learn how to achieve and maintain Inbox Zero as an entrepreneur with effective strategies, tools, and tips for efficient email management.",
+      "Learn how to achieve and maintain Cusmato as an entrepreneur with effective strategies, tools, and tips for efficient email management.",
     date: "Jun 27, 2024",
     datetime: "2024-06-27",
     // category: { title: "Marketing", href: "#" },
@@ -81,10 +81,10 @@ const posts = [
     },
   },
   {
-    title: "How Inbox Zero hit #1 on Product Hunt",
+    title: "How Cusmato hit #1 on Product Hunt",
     file: "how-my-open-source-saas-hit-first-on-product-hunt",
     description:
-      "Two weeks ago I launched Inbox Zero on Product Hunt. It finished in first place with over 1000 upvotes and gained thousands of new users. The app, Inbox Zero, helps you clean up your inbox fast. It lets you bulk unsubscribe from newsletters, automate emails with an AI assistant, automatically block cold emails, and provides email analytics.",
+      "Two weeks ago I launched Cusmato on Product Hunt. It finished in first place with over 1000 upvotes and gained thousands of new users. The app, Cusmato, helps you clean up your inbox fast. It lets you bulk unsubscribe from newsletters, automate emails with an AI assistant, automatically block cold emails, and provides email analytics.",
     date: "Jan 22, 2024",
     datetime: "2024-01-22",
     // category: { title: "Marketing", href: "#" },
@@ -129,7 +129,7 @@ const posts = [
     title: "How to Bulk Unsubscribe from Emails",
     file: "bulk-unsubscribe-from-emails",
     description:
-      "Want to stop the flood of unwanted subscriptions in your email? Learn how to bulk unsubscribe from emails and create a clutter-free inbox with Inbox Zero.",
+      "Want to stop the flood of unwanted subscriptions in your email? Learn how to bulk unsubscribe from emails and create a clutter-free inbox with Cusmato.",
     date: "March 05, 2024",
     datetime: "2024-03-05",
     // category: { title: "Marketing", href: "#" },

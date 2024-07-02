@@ -49,10 +49,10 @@ export function usePremium() {
 }
 
 function PremiumAlert({
-  plan = "Inbox Zero Business",
+  plan = "Cusmato Business",
   showSetApiKey,
 }: {
-  plan?: "Inbox Zero Business" | "Inbox Zero Pro";
+  plan?: "Cusmato Business" | "Cusmato Pro";
   showSetApiKey: boolean;
 }) {
   const { PremiumModal, openModal } = usePremiumModal();

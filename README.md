@@ -1,15 +1,15 @@
-[![](apps/web/app/opengraph-image.png)](https://www.getinboxzero.com)
+[![](apps/web/app/opengraph-image.png)](https://www.getcusmato.app)
 
 <p align="center">
-  <a href="https://www.getinboxzero.com">
-    <h1 align="center">Inbox Zero</h1>
+  <a href="https://www.getcusmato.app">
+    <h1 align="center">Cusmato</h1>
   </a>
   <p align="center">
-    Open source email app to reach inbox zero fast.
+    Open source email app to reach Cusmato fast.
     <br />
-    <a href="https://www.getinboxzero.com">Website</a>
+    <a href="https://www.getcusmato.app">Website</a>
     ·
-    <a href="https://www.getinboxzero.com/discord">Discord</a>
+    <a href="https://www.getcusmato.app/discord">Discord</a>
     ·
     <a href="https://github.com/elie222/inbox-zero">Issues</a>
     ·
@@ -19,11 +19,11 @@
 
 ## About
 
-Inbox Zero is an open-source email app whose goal is to help you reach inbox zero fast with AI assistance.
+Cusmato is an open-source email app whose goal is to help you reach Cusmato fast with AI assistance.
 
 ## Demo Video
 
-[![Inbox Zero demo](/video-thumbnail.png)](http://www.youtube.com/watch?v=kc_9WZ1ZWyg)
+[![Cusmato demo](/video-thumbnail.png)](http://www.youtube.com/watch?v=kc_9WZ1ZWyg)
 
 ## Key Features
 
@@ -47,13 +47,13 @@ Inbox Zero is an open-source email app whose goal is to help you reach inbox zer
 
 ## Feature Requests
 
-To request a feature open a [GitHub issue](https://github.com/elie222/inbox-zero/issues). If you don't have a GitHub account you can request features [here](https://www.getinboxzero.com/feature-requests). Or join our [Discord](https://www.getinboxzero.com/discord).
+To request a feature open a [GitHub issue](https://github.com/elie222/inbox-zero/issues). If you don't have a GitHub account you can request features [here](https://www.getcusmato.app/feature-requests). Or join our [Discord](https://www.getcusmato.app/discord).
 
 ## Getting Started for Developers
 
 ### Contributing to the project
 
-We have a public Kanban available [here](https://github.com/users/elie222/projects/1/views/1). Join our [Discord](https://www.getinboxzero.com/discord) to discuss tasks and check what's being worked on.
+We have a public Kanban available [here](https://github.com/users/elie222/projects/1/views/1). Join our [Discord](https://www.getcusmato.app/discord) to discuss tasks and check what's being worked on.
 
 ### Requirements
 
@@ -149,7 +149,7 @@ Follow instructions [here](https://developers.google.com/gmail/api/guides/push).
 3. [Grant publish rights on your topic](https://developers.google.com/gmail/api/guides/push#grant_publish_rights_on_your_topic)
 
 Set env var `GOOGLE_PUBSUB_TOPIC_NAME`.
-When creating the subscription select Push and the url should look something like: `https://www.getinboxzero.com/api/google/webhook?token=TOKEN` or `https://abc.ngrok-free.app/api/google/webhook?token=TOKEN` where the domain is your domain. Set `GOOGLE_PUBSUB_VERIFICATION_TOKEN` in your `.env` file to be the value of `TOKEN`.
+When creating the subscription select Push and the url should look something like: `https://www.getcusmato.app/api/google/webhook?token=TOKEN` or `https://abc.ngrok-free.app/api/google/webhook?token=TOKEN` where the domain is your domain. Set `GOOGLE_PUBSUB_VERIFICATION_TOKEN` in your `.env` file to be the value of `TOKEN`.
 
 To run in development ngrok can be helpful:
 

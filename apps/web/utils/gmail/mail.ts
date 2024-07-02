@@ -69,7 +69,7 @@ const createRawMailMessage = async (
       : "",
     inReplyTo: body.replyToEmail ? body.replyToEmail.headerMessageId : "",
     headers: {
-      "X-Mailer": "Inbox Zero Web",
+      "X-Mailer": "Cusmato Web",
     },
   });
 };

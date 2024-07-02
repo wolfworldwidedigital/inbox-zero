@@ -76,13 +76,13 @@ export const env = createEnv({
     NEXT_PUBLIC_POSTHOG_KEY: z.string().optional(),
     NEXT_PUBLIC_POSTHOG_HERO_AB: z.string().optional(),
     NEXT_PUBLIC_POSTHOG_ONBOARDING_SURVEY_ID: z.string().optional(),
-    NEXT_PUBLIC_BASE_URL: z.string().default("https://www.getinboxzero.com"),
+    NEXT_PUBLIC_BASE_URL: z.string().default("https://www.getcusmato.app"),
     NEXT_PUBLIC_CONTACTS_ENABLED: z.coerce.boolean().optional().default(false),
     NEXT_PUBLIC_SENTRY_DSN: z.string().optional(),
     NEXT_PUBLIC_SUPPORT_EMAIL: z
       .string()
       .optional()
-      .default("elie@getinboxzero.com"),
+      .default("admin@cusmato.app"),
     NEXT_PUBLIC_GTM_ID: z.string().optional(),
     NEXT_PUBLIC_CRISP_WEBSITE_ID: z.string().optional(),
     NEXT_PUBLIC_DISABLE_TINYBIRD: z.coerce.boolean().optional().default(false),

@@ -9,7 +9,7 @@ export function ListHeading(props: {
     <div>
       <div className="content-container flex flex-wrap items-center gap-6 sm:flex-nowrap">
         <h1 className="text-base font-semibold leading-7 text-gray-900">
-          Reach Inbox Zero
+          Reach Cusmato
         </h1>
         <div className="order-last flex w-full gap-x-8 text-sm font-semibold leading-6 sm:order-none sm:w-auto sm:border-l sm:border-gray-200 sm:pl-6 sm:leading-7">
           <a href="#" className="text-gray-700">

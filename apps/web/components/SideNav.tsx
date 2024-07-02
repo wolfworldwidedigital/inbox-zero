@@ -124,7 +124,7 @@ export const navigation: NavItem[] = [
 const bottomLinks: NavItem[] = [
   {
     name: "User Guide",
-    href: "https://docs.getinboxzero.com",
+    href: "https://docs.getcusmato.app",
     target: "_blank",
     icon: BookIcon,
   },

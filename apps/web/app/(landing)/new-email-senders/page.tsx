@@ -15,7 +15,7 @@ import { FeaturesWithImage } from "@/app/(landing)/home/Features";
 import { BasicLayout } from "@/components/layouts/BasicLayout";
 
 export const metadata: Metadata = {
-  title: "New Email Senders | Inbox Zero",
+  title: "New Email Senders | Cusmato",
   description:
     "Manage and block new senders in your inbox. Identify and control your new email connections with a single click.",
   alternates: { canonical: "/new-email-senders" },
